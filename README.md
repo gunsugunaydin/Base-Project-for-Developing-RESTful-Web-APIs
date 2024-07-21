@@ -40,7 +40,7 @@ mvn clean install
 ### Run the Application
 mvn spring-boot:run
 
-### Swagger UI
+## Swagger UI
 
 ![Ekran görüntüsü 2024-07-21 225029](https://github.com/user-attachments/assets/6c41088a-8b28-438f-9955-ed2023039ed7)
 
