@@ -1,8 +1,8 @@
 # Base Project for Developing RESTful Web APIs
-RestBaseProject is a backend Spring Boot web application designed to provide a secure and clean foundation for developing RESTful web APIs. This project includes essential components such as security features, account management, and token generation.
+**RestBase** is a backend Spring Boot web application designed to provide a secure and clean foundation for developing RESTful web APIs. This project includes essential components such as security features, account management, and token generation.
 
 ## Features
-- **Authentication and Authorization**: Secure the application with JWT tokens.
+- **Authentication and Authorization**: Secure the application using JWT tokens.
 - **Account Management**: CRUD operations for user accounts.
 - **Token Generation**: Generate JWT tokens for authenticated users.
 - **Profile Management**: View, update, and delete user profiles.
@@ -42,12 +42,17 @@ mvn clean install
 ```sh
 mvn spring-boot:run
 ```
-## Swagger UI
+## Swagger UI Screenshot
 
 ![Ekran görüntüsü 2024-07-21 225029](https://github.com/user-attachments/assets/6c41088a-8b28-438f-9955-ed2023039ed7)
 
 The above screenshot shows the Swagger user interface. You can use this interface to interact with the API endpoints, view available operations, and see request/response details.
 To access Swagger UI, run the application and navigate to: http://localhost:8080/swagger-ui/index.html
 
-Here, you can explore the API endpoints, try out different operations, and view detailed API documentation. If you have any questions, issues, or feedback about this project, please feel free to reach out to me. I'll be happy to assist you!
+Here, you can explore the API endpoints, try out different operations, and view detailed API documentation. If you have any questions, issues, or feedback about this project, please feel free to reach out to me:
+
+- **Email**: gunsugunay98@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/gunsugunaydin/
+
+I'll be happy to assist you!
 
