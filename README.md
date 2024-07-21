@@ -39,3 +39,13 @@ git clone https://github.com/gunsugunaydin/Base-Project-for-Developing-RESTful-W
 mvn clean install
 ### Run the Application
 mvn spring-boot:run
+
+### Swagger UI
+
+![Ekran görüntüsü 2024-07-21 225029](https://github.com/user-attachments/assets/6c41088a-8b28-438f-9955-ed2023039ed7)
+
+The above screenshot shows the Swagger user interface. You can use this interface to interact with the API endpoints, view available operations, and see request/response details.
+To access Swagger UI, run the application and navigate to: http://localhost:8080/swagger-ui/index.html
+
+Here, you can explore the API endpoints, try out different operations, and view detailed API documentation. If you have any questions, issues, or feedback about this project, please feel free to reach out to me. I'll be happy to assist you!
+
