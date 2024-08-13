@@ -8,7 +8,7 @@
 - **Profile Management**: View, update, and delete user profiles.
 - **Swagger Integration**: API documentation with Swagger.
 
-## Technologies Used
+## Technologies
 - **Spring Boot**: Framework for building the application.
 - **Spring Security**: For authentication and authorization.
 - **JWT**: JSON Web Token for securing endpoints.
