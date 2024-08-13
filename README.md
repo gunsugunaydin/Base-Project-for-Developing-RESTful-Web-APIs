@@ -46,7 +46,7 @@ mvn spring-boot:run
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/2f32300f-33b6-486d-9366-5ec2fb25684c">
 
-
+Swagger UI Screenshot
 
 The above screenshot shows the Swagger user interface. You can use this interface to interact with the API endpoints, view available operations, and see request/response details.
 To access Swagger UI, run the application and navigate to: http://localhost:8080/swagger-ui/index.html
