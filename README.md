@@ -42,7 +42,7 @@ mvn clean install
 ```sh
 mvn spring-boot:run
 ```
-## Swagger UI Screenshot
+## API Documentation
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/2f32300f-33b6-486d-9366-5ec2fb25684c">
 
