@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -33,7 +32,6 @@ import org.gunsugunaydin.RestBase.payload.auth.UserLoginDTO;
 import org.gunsugunaydin.RestBase.service.AccountService;
 import org.gunsugunaydin.RestBase.service.TokenService;
 import org.gunsugunaydin.RestBase.util.constants.AccountError;
-
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
@@ -70,6 +68,7 @@ public class AuthController {
         }
     }
 
+    
     @PostMapping(value = "/users/add", produces = "application/json")
     @ResponseStatus(HttpStatus.CREATED)
     @ApiResponse(responseCode = "200", description = "Account added")
@@ -91,6 +90,7 @@ public class AuthController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
         }
     }
+    
 
     @GetMapping(value = "/users/list", produces = "application/json")
     @ApiResponse(responseCode = "200", description = "List of users")
@@ -105,6 +105,7 @@ public class AuthController {
         }
         return accounts;
     }
+    
 
     @PutMapping(value = "/users/{user_id}/update-authorities", produces = "application/json", consumes = "application/json")
     @ApiResponse(responseCode = "200", description = "Authorities updated")
@@ -127,6 +128,7 @@ public class AuthController {
         return new ResponseEntity<AccountViewDTO>(new AccountViewDTO(), HttpStatus.BAD_REQUEST);
     }
 
+    
     @GetMapping(value = "/profile", produces = "application/json")
     @ApiResponse(responseCode = "200", description = "Your profile")
     @ApiResponse(responseCode = "401", description = "Token missing")
@@ -141,6 +143,7 @@ public class AuthController {
         return profileDTO;
 
     }
+    
 
     @PutMapping(value = "/profile/update-password", produces = "application/json", consumes = "application/json")
     @ApiResponse(responseCode = "200", description = "Profile updated")
@@ -159,6 +162,7 @@ public class AuthController {
         return accountViewDTO;
     }
 
+    
     @DeleteMapping(value = "/profile/delete")
     @ApiResponse(responseCode = "200", description = "Profile deleted")
     @ApiResponse(responseCode = "401", description = "Token missing")
@@ -176,4 +180,5 @@ public class AuthController {
         return new ResponseEntity<String>("Bad request", HttpStatus.BAD_REQUEST);
     }
 }
+
 
