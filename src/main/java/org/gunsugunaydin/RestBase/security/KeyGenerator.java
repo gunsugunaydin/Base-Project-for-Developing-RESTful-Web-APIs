@@ -1,7 +1,6 @@
 package org.gunsugunaydin.RestBase.security;
 
 import org.springframework.stereotype.Component;
-
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
 
