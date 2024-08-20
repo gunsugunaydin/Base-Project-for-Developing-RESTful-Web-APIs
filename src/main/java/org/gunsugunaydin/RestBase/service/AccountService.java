@@ -3,7 +3,6 @@ package org.gunsugunaydin.RestBase.service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -16,7 +15,6 @@ import org.springframework.stereotype.Service;
 import org.gunsugunaydin.RestBase.model.Account;
 import org.gunsugunaydin.RestBase.repository.AccountRepository;
 import org.gunsugunaydin.RestBase.util.constants.Authority;
-
 
 @Service
 public class AccountService implements UserDetailsService {
