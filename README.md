@@ -1,4 +1,4 @@
-# Base Project for Developing RESTful Web APIs
+# Base Project for Developing RESTful Web APIs <img src="https://media.tenor.com/XkpE9IdLH20AAAAi/tkthao219-peach.gif" alt="Taking Photo" width="50" height="50">
 **RestBase** is a backend Spring Boot web application designed to provide a secure and clean foundation for developing RESTful web APIs. This project includes essential components such as security features, account management, and token generation.
 
 ## Features
